@@ -4,6 +4,8 @@ An Airflow DAG that fetches the daily USD/MXN FIX exchange rate from Banco de
 México's [SIE API](https://www.banxico.org.mx/SieAPIRest/service/v1/) and
 loads it into Postgres.
 
+`.github/workflows/tests.yml` runs the test suite on every push/PR to `main`.
+
 ## How it works
 
 - **Series**: `SF43718` (USD/MXN FIX), published on business days.
