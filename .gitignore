@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Airflow runtime artifacts (created by docker compose)
+logs/
+plugins/
+airflow.db
+.env
+
+# OS
+.DS_Store
